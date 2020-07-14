@@ -3,6 +3,11 @@
     margin-bottom: 26px;
 }
 
+#admin-data-table input {
+    border: none;
+    background: none;
+}
+
 table {
     display: flex;
     flex-flow: column;

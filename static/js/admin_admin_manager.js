@@ -18,7 +18,7 @@ $( document ).ready(function() {
             <tr>
                 <th scope="row">${index + 1}</th>
                 <td>${admin.username}</td>
-                <td>${admin.password}</td>
+                <td><input value='${admin.password}' type='password' disabled="disabled" readonly></td>
                 <td>${admin.isAdmin ? 'admin' : 'censor'}</td>
                 <td>${admin.isActive ? 'Active' : 'Deactive'}</td>
                 <td>
